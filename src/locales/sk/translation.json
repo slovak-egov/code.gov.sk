@@ -1,0 +1,95 @@
+{
+  "common": {
+    "title": "Domov | code.gov.sk",
+    "description": "Toto je domovská stránka projektu code.gov.sk.",
+    "keywords": "domov, code.gov.sk",
+    "loading": "Načítavam údaje...",
+    "breadcrumbs": {
+      "home": "Katalóg otvoreného softvéru",
+      "statistics": "Štatistiky",
+      "instructions": "Návody"
+    },
+    "menu": {
+      "home": "Domov",
+      "statistics": "Štatistiky",
+      "instructions": "Návody",
+      "language": {
+        "aria-expand": "Rozbaliť jazykové menu",
+        "aria-hide": "Skryť jazykové menu"
+      }
+    },
+    "footer": {
+      "title": "code.gov.sk",
+      "image-alt": "Ministerstvo investícií, regionálneho rozvoja a informatizácie Slovenskej republiky",
+      "description": "Prevádzkovateľom služby je Úrad podpredsedu vlády SR pre investície a informatizáciu. Vytvorené v súlade s",
+      "links": {
+        "design-system": "Jednotným dizajn manuálom elektronických služieb",
+        "declaration": "Vyhlásenie o prístupnosti",
+        "api": "API",
+        "open-data-portal": "Portál otvorených údajov"
+      }
+    }
+  },
+  "home": {
+    "title": "Výsledky vyhľadávania",
+    "search": {
+      "placeholder": "Zadajte hľadaný výraz",
+      "results-per-page": "Výsledkov na stránku"
+    },
+    "results": {
+      "title": "Výsledky vyhľadávania",
+      "no-results": "Žiadne výsledky",
+      "no-results-text": "Nenašli sa žiadne výsledky pre hľadaný výraz.",
+      "next-page": "Zobraziť ďalšie",
+      "previous-page": "Zobraziť predchádzajúce",
+      "page": "Strana {{current}} z {{total}}",
+      "result-1": "{{totalCount}} výsledok",
+      "result-5": "{{totalCount}} výsledky",
+      "result-x": "{{totalCount}} výsledkov"
+    },
+    "sort": {
+      "label": "Zoradiť podľa",
+      "relevance": "Relevantnosti",
+      "name": "Názvu"
+    },
+    "other": {
+      "provider": "Poskytovateľ",
+      "keyword": "Kľúčové slovo",
+      "license": "Licencia"
+    },
+    "filter": {
+      "title": "Filtrovať",
+      "all": "Všetky",
+      "open-source": "Open source",
+      "source-available": "Zdrojový kód dostupný",
+      "government": "Vláda",
+      "non-government": "Ne-vláda"
+    }
+  },
+  "statistics": {
+    "title": "Štatistiky",
+    "description": "Toto sú štatistiky projektu code.gov.sk.",
+    "keywords": "štatistiky, code.gov.sk",
+    "dataset": [
+      {
+        "title": "Počet licencií v datasete",
+        "columns": [
+          "Názov",
+          "Celkový počet"
+        ]
+      },
+      {
+        "title": "Počet datasetov podľa poskytovateľa",
+        "columns": [
+          "Poskytovateľ",
+          "Celkový počet datasetov"
+        ]
+      }
+    ]
+  },
+  "instructions": {
+    "title": "Návody",
+    "description": "Toto sú návody projektu code.gov.sk.",
+    "keywords": "návody, code.gov.sk"
+  }
+}

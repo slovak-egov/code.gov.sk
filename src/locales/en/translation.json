@@ -1,0 +1,89 @@
+{
+  "common": {
+    "title": "Home | code.gov.sk",
+    "description": "This is the home page of the code.gov.sk project.",
+    "keywords": "home, code.gov.sk",
+    "loading": "Loading data...",
+    "breadcrumbs": {
+      "home": "Open Source Software Catalog",
+      "statistics": "Statistics",
+      "instructions": "Instructions"
+    },
+    "menu": {
+      "home": "Home",
+      "statistics": "Statistics",
+      "instructions": "Instructions",
+      "language": {
+        "aria-expand": "Expand language menu",
+        "aria-hide": "Hide language menu"
+      }
+    },
+    "footer": {
+      "title": "code.gov.sk",
+      "image-alt": "Ministry of Investments, Regional Development, and Informatization of the Slovak Republic",
+      "description": "The service is operated by the Office of the Deputy Prime Minister for Investments and Informatization. Created in accordance with",
+      "links": {
+        "design-system": "Unified Design Manual for Electronic Services",
+        "declaration": "Accessibility Declaration",
+        "api": "API",
+        "open-data-portal": "Open Data Portal"
+      }
+    }
+  },
+  "home": {
+    "title": "Search Results",
+    "search": {
+      "placeholder": "Enter your search term",
+      "results-per-page": "Results per page"
+    },
+    "results": {
+      "title": "Search Results",
+      "no-results": "No results",
+      "no-results-text": "No results found for the specified search.",
+      "next-page": "Show more",
+      "previous-page": "Show previous",
+      "page": "Page {{current}} of {{total}}",
+      "result-1": "{{totalCount}} result",
+      "result-5": "{{totalCount}} results",
+      "result-x": "{{totalCount}} results"
+    },
+    "sort": {
+      "label": "Sort by",
+      "relevance": "Relevance",
+      "name": "Name"
+    },
+    "other": {
+      "provider": "Provider",
+      "keyword": "Keyword",
+      "license": "License"
+    },
+    "filter": {
+      "title": "Filter",
+      "all": "All",
+      "open-source": "Open source",
+      "source-available": "Source code available",
+      "government": "Government",
+      "non-government": "Non-government"
+    }
+  },
+  "statistics": {
+    "title": "Statistics",
+    "description": "These are the statistics of the code.gov.sk project.",
+    "keywords": "statistics, code.gov.sk",
+    "dataset": [
+      {
+        "title": "Number of licenses in the dataset",
+        "columns": ["Name", "Total number"]
+      },
+      {
+        "title": "Number of datasets by provider",
+        "columns": ["Provider", "Total number of datasets"]
+      }
+    ]
+  },
+  "instructions": {
+    "title": "Instructions",
+    "description": "These are the instructions of the code.gov.sk project.",
+    "keywords": "instructions, code.gov.sk"
+  }
+}

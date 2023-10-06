@@ -1,0 +1,19 @@
+$idsk-assets-path: "~/src/lib/assets/";
+$govuk-assets-path: "~/src/lib/assets/";
+$govuk-link-visited-colour: #0065B3;
+
+@import  '@id-sk/frontend/idsk/all';
+
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}

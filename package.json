@@ -2,7 +2,18 @@
   "name": "nkod-gui",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "i18next-resources-for-ts": "i18next-resources-for-ts toc -i ./src/locales/sk -o ./src/@types/resources.ts"
+  },
   "dependencies": {
+    "@id-sk/frontend": "^2.11.0",
+    "@loadable/component": "^5.15.3",
+    "@tanstack/react-query": "^4.29.1",
+    "@tanstack/react-query-devtools": "^4.35.7",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -10,22 +21,28 @@
     "@types/node": "^16.18.53",
     "@types/react": "^18.2.22",
     "@types/react-dom": "^18.2.7",
+    "axios": "^1.5.1",
+    "classnames": "^2.3.2",
+    "i18next": "^23.5.1",
+    "i18next-browser-languagedetector": "^7.1.0",
+    "lodash": "^4.17.21",
+    "nunjucks": "^3.2.4",
+    "papaparse": "^5.4.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-hook-form": "^7.46.2",
+    "react-i18next": "^13.2.2",
+    "react-router-dom": "^6.16.0",
     "react-scripts": "5.0.1",
+    "sass": "^1.67.0",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": [
       "react-app",
-      "react-app/jest"
+      "plugin:jsx-a11y/recommended"
     ]
   },
   "browserslist": {
@@ -39,5 +56,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/loadable__component": "^5.13.5",
+    "@types/lodash": "^4.14.199",
+    "@types/papaparse": "^5.3.9",
+    "@types/react-helmet": "^6.1.6",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "i18next-resources-for-ts": "^1.3.3",
+    "prettier": "^3.0.3"
   }
 }

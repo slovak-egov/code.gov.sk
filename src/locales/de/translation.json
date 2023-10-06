@@ -1,0 +1,95 @@
+{
+  "common": {
+    "title": "Startseite | code.gov.sk",
+    "description": "Dies ist die Startseite des Projekts code.gov.sk.",
+    "keywords": "Startseite, code.gov.sk",
+    "loading": "Wird geladen...",
+    "breadcrumbs": {
+      "home": "Katalog für Open-Source-Software",
+      "statistics": "Statistiken",
+      "instructions": "Anleitungen"
+    },
+    "menu": {
+      "home": "Startseite",
+      "statistics": "Statistiken",
+      "instructions": "Anleitungen",
+      "language": {
+        "aria-expand": "Sprachmenü erweitern",
+        "aria-hide": "Sprachmenü ausblenden"
+      }
+    },
+    "footer": {
+      "title": "code.gov.sk",
+      "image-alt": "Ministerium für Investitionen, regionale Entwicklung und Informatisierung der Slowakischen Republik",
+      "description": "Der Betreiber des Dienstes ist das Amt des stellvertretenden Premierministers für Investitionen und Informatisierung. Erstellt in Übereinstimmung mit",
+      "links": {
+        "design-system": "Einheitlicher Design-Leitfaden für elektronische Dienste",
+        "declaration": "Erklärung zur Barrierefreiheit",
+        "api": "API",
+        "open-data-portal": "Portal für offene Daten"
+      }
+    }
+  },
+  "home": {
+    "title": "Suchergebnisse",
+    "search": {
+      "placeholder": "Geben Sie Ihren Suchbegriff ein",
+      "results-per-page": "Ergebnisse pro Seite"
+    },
+    "results": {
+      "title": "Suchergebnisse",
+      "no-results": "Keine Ergebnisse",
+      "no-results-text": "Es wurden keine Ergebnisse für die angegebene Suche gefunden.",
+      "next-page": "Nächste Seite anzeigen",
+      "previous-page": "Vorherige Seite anzeigen",
+      "page": "Seite {{current}} von {{total}}",
+      "result-1": "{{totalCount}} Ergebnis",
+      "result-5": "{{totalCount}} Ergebnisse",
+      "result-x": "{{totalCount}} Ergebnisse"
+    },
+    "sort": {
+      "label": "Sortieren nach",
+      "relevance": "Relevanz",
+      "name": "Name"
+    },
+    "other": {
+      "provider": "Anbieter",
+      "keyword": "Stichwort",
+      "license": "Lizenz"
+    },
+    "filter": {
+      "title": "Filtern",
+      "all": "Alle",
+      "open-source": "Open Source",
+      "source-available": "Quellcode verfügbar",
+      "government": "Regierung",
+      "non-government": "Nicht-Regierung"
+    }
+  },
+  "statistics": {
+    "title": "Statistiken",
+    "description": "Dies sind die Statistiken des Projekts code.gov.sk.",
+    "keywords": "Statistiken, code.gov.sk"
+  },
+  "instructions": {
+    "title": "Anleitungen",
+    "description": "Dies sind die Anleitungen des Projekts code.gov.sk.",
+    "keywords": "Anleitungen, code.gov.sk",
+    "dataset": [
+      {
+        "title": "Anzahl der Lizenzen im Datensatz",
+        "columns": [
+          "Name",
+          "Gesamtanzahl"
+        ]
+      },
+      {
+        "title": "Anzahl der Datensätze nach Anbieter",
+        "columns": [
+          "Anbieter",
+          "Gesamtanzahl der Datensätze"
+        ]
+      }
+    ]
+  }
+}
